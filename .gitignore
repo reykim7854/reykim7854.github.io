@@ -1,0 +1,8 @@
+#Folders
+node_modules
+psd
+.vscode
+
+#Files
+package-lock.json
+homepage.code-workspace
