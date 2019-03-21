@@ -1,8 +1,7 @@
 #Folders
 node_modules
-psd
-.vscode
+raw
 
 #Files
 package-lock.json
-homepage.code-workspace
+package.json
