@@ -1,8 +1,9 @@
 #Folders
 node_modules
 raw
-build
+.vscode
 
 #Files
 package-lock.json
 package.json
+.eslintrc.json
