@@ -1,4 +1,4 @@
-document.body.addEventListener('load', () => {
+document.body.onload = function onLoad() {
   /* - START - onclick nav-link change content */
   const page = document.getElementsByClassName('content');
   const link = document.getElementsByClassName('nav-link');
@@ -65,4 +65,4 @@ document.body.addEventListener('load', () => {
     }
   });
   /* - END - */
-});
+};
