@@ -15,11 +15,9 @@ document.body.onload = function onLoad() {
         footer.classList.add('textShadow');
         navToggle.style.color = 'white';
         navToggle.classList.add('textShadow');
-        nav.style.background = 'url(../../src/about/bg.png) no-repeat center center fixed';
-        nav.style.backgroundSize = 'cover';
-        navDrop.style.background = 'url(../../src/about/bg.png) no-repeat center center fixed';
-        navDrop.style.backgroundSize = 'cover';
-        document.body.style.background = 'url(../../src/about/bg.png) no-repeat center center fixed';
+        nav.style.backgroundColor = 'black';
+        navDrop.style.backgroundColor = 'black';
+        document.body.style.background = 'url(../../assets/images/about/bg.png) no-repeat center center fixed';
         document.body.style.backgroundSize = 'cover';
         for (let k = 0; k < link.length; k += 1) {
           link[k].style.color = 'white';
