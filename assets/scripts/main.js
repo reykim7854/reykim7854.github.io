@@ -2,8 +2,8 @@ document.body.onload = function onLoad() {
   /* - START - onclick nav-link change content */
   const page = document.getElementsByClassName('content');
   const link = document.getElementsByClassName('nav-link');
-  const nav = document.getElementById('navbar');
   const footer = document.getElementById('footer');
+  const nav = document.getElementById('navbar');
   const navToggle = document.getElementById('nav-toggle');
   const navDrop = document.getElementById('right-nav-link');
   const footerLink = document.getElementsByClassName('footer-link');
@@ -13,10 +13,12 @@ document.body.onload = function onLoad() {
       if (page[i].id !== 'home') {
         footer.classList.remove('sticky');
         footer.classList.add('textShadow');
+        nav.style.backgroundColor = 'rgba(0, 0, 0, 0.3)';
+        if (navDrop.classList.contains('drop')) {
+          navDrop.style.backgroundColor = 'rgba(0, 0, 0, 0.3)';
+        }
         navToggle.style.color = 'white';
         navToggle.classList.add('textShadow');
-        nav.style.backgroundColor = 'black';
-        navDrop.style.backgroundColor = 'black';
         document.body.style.background = 'url(../../assets/images/about/bg.png) no-repeat center center fixed';
         document.body.style.backgroundSize = 'cover';
         for (let k = 0; k < link.length; k += 1) {
@@ -27,9 +29,9 @@ document.body.onload = function onLoad() {
       } else {
         footer.classList.add('sticky');
         footer.classList.remove('textShadow');
-        nav.style.background = 'transparent';
-        navDrop.style.background = 'transparent';
         document.body.style.background = 'transparent';
+        nav.style.backgroundColor = 'transparent';
+        navDrop.style.backgroundColor = 'transparent';
         navToggle.style.color = 'black';
         navToggle.classList.remove('textShadow');
         for (let k = 0; k < link.length; k += 1) {
