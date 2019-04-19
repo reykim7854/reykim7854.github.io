@@ -10,18 +10,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: black;
 }
 
 a[href='#about-content'],
 a[href='#about-content']:visited {
-  color: white;
+  color: black;
   text-decoration: none;
   transition: 0.3s;
 }
 
 a[href='#about-content']:hover {
-  color: white;
+  color: black;
 }
 
 #about-content {
