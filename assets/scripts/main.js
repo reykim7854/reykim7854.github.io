@@ -1,5 +1,5 @@
 document.body.onload = function onLoad() {
-  /* - START - onclick nav-link change content */
+  /* - START - onclick nav-link change content - */
   const page = document.getElementsByClassName('content');
   const link = document.getElementsByClassName('nav-link');
   const footer = document.getElementById('footer');
@@ -7,8 +7,9 @@ document.body.onload = function onLoad() {
   const navDrop = document.getElementById('right-nav-link');
   for (let i = 0; i < link.length; i += 1) {
     link[i].addEventListener('click', () => {
+      document.title = link[i].innerHTML;
       page[i].classList.add('active');
-      if (page[i].id !== 'home') {
+      if (page[i].clientHeight > window.innerHeight) {
         footer.classList.remove('sticky');
       } else {
         footer.classList.add('sticky');
@@ -21,6 +22,7 @@ document.body.onload = function onLoad() {
     });
   }
   /* - END - */
+
   /* - START - Nav Toggle */
   navToggle.addEventListener('click', () => {
     navDrop.classList.toggle('drop');
