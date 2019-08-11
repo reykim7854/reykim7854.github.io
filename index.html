@@ -27,13 +27,14 @@
       href="assets/styles/bundle.min.css"
     />
   </head>
+  <script src="https://apis.google.com/js/api.js"></script>
   <body>
     <nav id="navbar">
       <button class="nav-link active-nav">Home</button>
       <div id="right-nav-link">
         <button class="nav-link">About</button>
-        <button class="nav-link">Contest</button>
-        <button class="nav-link">Skills</button>
+        <button class="nav-link">Projects</button>
+        <button class="nav-link">Blog</button>
       </div>
       <button id="nav-toggle">
         <i class="fas fa-bars"></i>
@@ -54,7 +55,9 @@
           <div id="profile-container">
             <div id="profile-main" class="profile-content">
               <div id="profile-avatar-container">
-                <div id="profile-avatar"></div>
+                <div id="profile-avatar">
+                  <!-- Profile Image Container -->
+                </div>
               </div>
               <div id="profile-main-content">
                 <div id="profile-main-name">Muhammad Rayhan Hakim</div>
@@ -76,6 +79,7 @@
                   <i class="fas fa-heart"></i>
                   <span> Something Fun </span>
                 </div>
+                <h4 id="profile-sub-header">CONTACTS:</h4>
                 <div id="profile-whatsapp" class="profile-sub-content">
                   <i class="fab fa-whatsapp"></i>
                   <a
@@ -119,25 +123,41 @@
             <h2>ABOUT THIS WEBSITE:</h2>
             <p>
               The purpose of this website is for me to share what I do and what
-              I like just like other blogs, but also to practice my skill in web
-              programming and web design. If you guys would like to work on a
-              project with me, also feel free to ask me via the contacts that
+              what I like just like other blogs, but also to practice my skill
+              in web programming and web design. If you guys would like to work
+              on a project with me, feel free to ask me via the contacts that
               I've provided in the other column.
             </p>
             <p>
-              That's it for now from me, thank you! for reading all of this text
+              That's it from me for now, thank you! for reading all of this text
               carefully.
             </p>
           </div>
         </div>
       </article>
     </section>
-    <section id="videos" class="content">
-      <div id="under-construction">
-        <div>UNDER CONSTRUCTION</div>
-      </div>
+    <section id="projects" class="content">
+      <h1>PROJECTS LIST</h1>
+      <article id="projects-content">
+        <div class="projects-item-wrapper">
+          <div class="projects-item-content">
+            <div class="projects-item-title">Mappool Generator</div>
+            <p class="projects-item-description">
+              A Mappool Template for osu! Tournament Livestreams
+            </p>
+            <a
+              class="projects-item-link"
+              href="https://github.com/mrayhanhakim/mappool-generator"
+              target="_blank"
+            >
+              Read More
+              <i class="fas fa-chevron-right"></i>
+            </a>
+          </div>
+        </div>
+      </article>
     </section>
-    <section id="skins" class="content">
+    <section id="blog" class="content">
       <div id="under-construction">
         <div>UNDER CONSTRUCTION</div>
       </div>
@@ -148,7 +168,6 @@
           href="https://osu.ppy.sh/users/4085825"
           id="footer-osu"
           class="footer-link"
-          target="_blank"
         >
           osu!
         </a>
@@ -156,7 +175,6 @@
           href="https://github.com/mrayhanhakim/"
           id="footer-git"
           class="footer-link"
-          target="_blank"
         >
           <i class="fab fa-github"></i>
         </a>
@@ -164,7 +182,6 @@
           href="https://www.twitch.tv/Rayhan_Hakim/"
           id="footer-twitch"
           class="footer-link"
-          target="_blank"
         >
           <i class="fab fa-twitch"></i>
         </a>
@@ -172,7 +189,6 @@
           href="https://www.youtube.com/c/Rayhan_Hakim"
           id="footer-yt"
           class="footer-link"
-          target="_blank"
         >
           <i class="fab fa-youtube"></i>
         </a>

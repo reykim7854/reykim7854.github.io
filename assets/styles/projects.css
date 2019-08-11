@@ -1,0 +1,71 @@
+#projects {
+  margin-top: 62px;
+}
+
+#projects-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#projects h1 {
+  text-align: center;
+}
+
+.projects-item-wrapper,
+.projects-item-content {
+  border-radius: 25px;
+}
+
+.projects-item-wrapper {
+  background: url("https://imgur.com/QOHv4Ky.png") no-repeat center center;
+  background-size: cover;
+  color: white;
+  width: 100%;
+  margin: 0 1em 1em 1em;
+}
+
+.projects-item-content {
+  padding: 10px 7px;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-item-title {
+  font-size: 20pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+.projects-item-link,
+.projects-item-link:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.projects-item-link:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 640px) {
+  .projects-item-wrapper {
+    width: 608px;
+    margin: 0 7px 1em 7px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  #projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #projects-content {
+    width: 1920px;
+  }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByb2plY3RzLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGdCQUFBO0FBQ0Y7O0FBRUE7RUFDRSxhQUFhO0VBQ2IsdUJBQXVCO0VBQ3pCLGVBQUE7QUFDQTs7QUFFQTtFQUNBLGtCQUFBO0FBQ0E7O0FBRUE7O0VBRUEsbUJBQUE7QUFDQTs7QUFFQTtFQUNBLHdFQUFBO0VBQ0Usc0JBQXNCO0VBQ3hCLFlBQUE7RUFDQSxXQUFBO0VBQ0UscUJBQXFCO0FBQ3ZCOztBQUVBO0VBQ0EsaUJBQUE7RUFDQSxvQ0FBQTtFQUNFLGFBQWE7RUFDZixzQkFBQTtFQUNFLG1CQUFBO0FBQ0Y7O0FBRUE7RUFDQSxlQUFBO0VBQ0EsaUJBQUE7RUFDRSxrQkFBa0I7QUFDcEI7O0FBRUE7O0VBRUUsWUFBWTtFQUNkLHFCQUFBO0FBQ0E7O0FBRUE7RUFDQSwwQkFBQTtBQUNBOztBQUVBO0VBQ0E7SUFDSSxZQUFZO0lBQ2hCLHFCQUFBO0VBQ0U7QUFDRjs7QUFFQTtFQUNFO0lBQ0YsYUFBQTtJQUNBLHNCQUFBO0lBQ0EsbUJBQUE7RUFDRTs7RUFFQTtJQUNFLGFBQWE7RUFDZjtBQUNGIiwiZmlsZSI6InByb2plY3RzLmNzcyJ9 */
